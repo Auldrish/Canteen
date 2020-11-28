@@ -1,0 +1,92 @@
+/*Font families
+font-family: 'Cinzel', serif; //announcement
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Syncopate', sans-serif;
+font-family: 'Zilla Slab', serif;*/
+
+body{
+    font-family: 'Zilla Slab', serif;
+    background-color: white;
+}
+
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: rgba(0,0, 0, 0.4);    
+}
+
+
+
+
+#mainNavbar .nav-link {
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#mainNavbar .nav-link:hover {
+    color:#E64A19;
+}
+
+#mainNavbar .navbar-brand {
+    color: #E64A19;
+    font-size: 1.8rem;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+#mainNavbar.black {
+	background-color: #3E2723;
+	color: white;
+    transition: background 500ms;
+    font-weight: 300;
+}
+
+#intro{
+    background: url("https://c4.wallpaperflare.com/wallpaper/495/760/53/cuisine-food-india-indian-wallpaper-preview.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+#intro h1{
+    font-size: 3rem;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+#intro p{
+    font-size: 1.7rem;
+    font-family: 'Cinzel', serif;
+}
+
+#content{
+    margin-left: 300px;
+    padding-top: 150px;
+}
+
+#about{
+    background-color: #D7DBDD;
+}
+#content1{
+    padding-top: 50px;
+}
+
+#about h1{
+    color: #E64A19;
+    font-size: 3rem;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+#about p{
+    color: black;
+    line-height: 2;
+    font-size: 1.3rem;
+}
+
+#about .col{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
