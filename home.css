@@ -1,507 +1,240 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+/*Font families
+font-family: 'Cinzel', serif; //announcement
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Syncopate', sans-serif;
+font-family: 'Zilla Slab', serif;*/
 
-    <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=Syncopate:wght@400;700&family=Zilla+Slab:wght@300;400;600&display=swap" rel="stylesheet">
-
-     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
-        <!-- Site Icons -->
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="home.css">
-
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- color -->
-    <link id="changeable-colors" rel="stylesheet" href="css/colors/orange.css" />
-
-    <!-- Modernizer -->
-    <script src="js/modernizer.js"></script>
-
-    <title>CMS</title>
-  </head>
+body{
+    font-family: 'Zilla Slab', serif;
+    background-color: white;
+}
 
 
-  <body>
-
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top ">
-      <a href="#" class="navbar-brand">CMS</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navLinks">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                  <a href="" class="nav-link">HOME</a>
-              </li>
-              <li class="nav-item">
-                  <a href="" class="nav-link">MENU</a>
-              </li>
-              <li class="nav-item">
-                  <a href="" class="nav-link">GALLERY</a>
-              </li>
-              <li class="nav-item">
-                  <a href="" class="nav-link">ORDERS & RESERVATIONS</a>
-              </li>
-              <li class="nav-item">
-                  <a href="" class="nav-link">CONTACT US</a>
-              </li>
-          </ul>
-      </div>
-      </nav>   
-      
-      <section id="intro">
-        <div id="content"  class="container">
-            <div class="row">
-                <div class="col-md-10 text-center text-white">
-                    <h1>Welcome to our <span style="color: #E64A19; font-size: 4rem;">Canteen</span></h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <button type="button" class="btn btn-outline-danger" style="font-size: 2rem;">Book a table</button>
-                </div>
-            </div>
-        </div>
-      </section>
-
-
-      <section id="about">
-        <div id="content1" class="container">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <h1>About Us</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus doloribus velit provident nam 
-                architecto culpa ab libero, maxime repellat porro itaque non neque accusamus esse, commodi voluptatem. Quis, nobis pariatur?
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, in? Quisquam corrupti officia laborum voluptas quibusdam ipsa ratione 
-              adipisci non iure officiis odio ex, delectus mollitia ad expedita itaque aspernatur?</p>
-            </div>
-            <div class="col-md-6">
-              <img src="https://images.unsplash.com/photo-1520209268518-aec60b8bb5ca?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=884&q=80" class="img-fluid">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div id="menu" class="menu-main pad-top-100 pad-bottom-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <h2 class="block-title text-center">
-                        Our Menu    
-                    </h2>
-                        <p class="title-caption text-center"></p>
-                    </div>
-                    <div class="tab-menu">
-                        <div class="slider slider-nav">
-                            <div class="tab-title-menu">
-                                <h2>SOUTH INDIAN</h2>
-                                <p> <i class="flaticon-desert"></i> </p>
-                            </div>
-                            <div class="tab-title-menu">
-                                <h2>SANDWICHES</h2>
-                                <p> <i class="flaticon-dinner"></i> </p>
-                            </div>
-                            <div class="tab-title-menu">
-                                <h2>CHINESE</h2>
-                                <p> <i class="flaticon-canape"></i> </p>
-                            </div>
-                            <div class="tab-title-menu">
-                                <h2>REFRESHMENT</h2>
-                                <p> <i class="flaticon-coffee"></i> </p>
-                            </div>
-                        </div>
-                        <div class="slider slider-single">
-                            <div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://cdn.cdnparenting.com/articles/2020/02/03104346/Idli-Recipe.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>IDLI</h3>
-                                            <p>
-                                                Idli or idly are a type of savoury rice cake, originating from the Indian subcontinent, popular as breakfast foods in Southern India
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹20</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://im.rediff.com/travel-living/2015/apr/144302c33c547d28928409d18e3cf130093b56e8.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>MEDU VADA</h3>
-                                            <p>
-                                                Medu vada is a South Indian fritter made from Vigna mungo. It is usually made in a doughnut shape, with a crispy exterior and soft interior
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹30</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://static.toiimg.com/photo/63841432.cms" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>DOSA</h3>
-                                            <p>
-                                                A dose/dosai is a rice pancake, originating from South India, made from a fermented batter predominantly consisting of lentils and rice
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹50</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://cdn2.foodviva.com/static-content/food-images/south-indian-recipes/uttapam/uttapam.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>UTTAPPAM</h3>
-                                            <p>
-                                                Uthappam is a type of dosa from South India. Unlike a typical dosa, which is crisp and crepe-like, uttapam is thicker.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹70</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://ratlamee.com/wp-content/uploads/2018/10/Onion-Uttapam-1.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>ONION UTTAPPAM</h3>
-                                            <p>
-                                                Onion Uthappam is a type of dosa from South India. Unlike a typical dosa, which is crisp and crepe-like, uttapam is thicker, with toppings.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹80</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                             </div>
-
-                            <div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://www.tuktukfoodsindia.com/wp-content/uploads/2017/06/veg-sandwich.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>VEG SANDWICH</h3>
-                                            <p>
-                                                Veg sandwich consisting of a vegetable filling between bread.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹30</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://www.dvo.com/recipe_pages/campchef/Griddle_Chocolate_Panini">
-                                        <div>
-                                            <h3>CHOCOLATE SANDWICH</h3>
-                                            <p>
-                                                Chocolate Sandwich chocolate filling in between bread slices.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹50</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://mk0tw0mdal2noq6fa.kinstacdn.com/wp-content/uploads/sites/4/2016/01/04-2-320x190.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>VEG GRILLED SANDWICH</h3>
-                                            <p>
-                                                It is typically prepared by heating one or more slices of cheese between slices of bread, with butter, on a frying pan until the bread browns and the cheese melts.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹75</span>
-                                    </div>
-                                </div>
-                                 <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://previews.123rf.com/images/bhofack2/bhofack21708/bhofack2170800567/84926650-healthy-white-bread-toast-with-a-pad-of-butter.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>BREAD BUTTER</h3>
-                                            <p>
-                                                
-                                                Toasted Bread served with Butter.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹20</span>
-                                    </div>
-                                </div>
-                                </div>
-                                <!-- end col -->                          
-                                <div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://www.cookwithmanali.com/wp-content/uploads/2014/11/Hakka-Noodles-1-500x500.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>CHINESE NOODLES</h3>
-                                            <p>
-                                                Noodles are an essential ingredient and staple in Chinese cuisine.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹60</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/03/hakka-noodles-recipe.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>HAKKA NOODLES</h3>
-                                            <p>
-                                                Hakka noodles is a Chinese preparation where boiled noodles are stir fried with sauces and vegetables.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹70</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://holycowvegan.net/wp-content/uploads/2020/03/vegetable-fried-rice-5.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>FRIED RICE</h3>
-                                            <p>
-                                                Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with vegetables. 
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹55</span>
-                                    </div>
-                                </div>
-                                 <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://c.ndtvimg.com/2019-12/51ddc5kg_manchurian_240x180_09_December_19.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>VEG MANCHURIAN</h3>
-                                            <p>
-                                               Gobi Manchurian is an Indian Chinese fried cauliflower dish. 
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹70</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                            </div>
-                            <div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://www.telegraph.co.uk/content/dam/health-fitness/2020/01/09/TELEMMGLPICT000169578515_trans_NvBQzQNjv4BqbTl4D02iCM3NuMfK2RT0HTjsyN2j3JnAYXPi059mk8g.jpeg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>TEA</h3>
-                                            <p>
-                                                A cup of hot tea, one of the most beloved beverages in India.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹10</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://www.cardiosmart.org/images/default-source/news-article-images/70545718.jpg?sfvrsn=b5c370e0_2" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>MILK</h3>
-                                            <p>
-                                                Hot Milk Served with bournvita.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹15</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://media3.s-nbcnews.com/j/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-1240w.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>COFFEE</h3>
-                                            <p>
-                                              A cup of hot coffee, one of the most beloved beverages.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹25</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://www.funfoodfrolic.com/wp-content/uploads/2020/09/Cold-Coffee-Thumbnail.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>COLD COFFEE</h3>
-                                            <p>
-                                               Cold coffee is a type of coffee beverage served chilled.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹40</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="https://5.imimg.com/data5/OO/NR/MY-10607423/cold-drink-can-500x500.png" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>COLD DRINK</h3>
-                                            <p>
-                                                Sprite,Thumbs Up,Coke.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">₹20</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end tab-menu -->
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </div>
-    <!-- end menu -->
-
-    <div class="gallery-box">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="heading-title text-center">
-						<h2>Gallery</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-					</div>
-				</div>
-			</div>
-			<div class="tz-gallery">
-				<div class="row">
-					<div class="col-sm-12 col-md-4 col-lg-4">
-						<a class="lightbox" href="i.jpg">
-							<img class="img-fluid" src="1.jpg" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="1.jpg">
-							<img class="img-fluid" src="1.jpg" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="1.jpg">
-							<img class="img-fluid" src="1.jpg" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-12 col-md-4 col-lg-4">
-						<a class="lightbox" href="1.jpg">
-							<img class="img-fluid" src="1.jpg" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="1.jpg">
-							<img class="img-fluid" src="1.jpg" alt="Gallery Images">
-						</a>
-					</div> 
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="1.jpg">
-							<img class="img-fluid" src="1.jpg" alt="Gallery Images">
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-    </div>
-    
-    <footer class="footer-area bg-f">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<h3>About Us</h3>
-					<p>We are a canteen service who offers you a smooth way to enjoy your food </p>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>Opening hours</h3>
-					<p><span class="text-color">Monday: </span>Closed</p>
-					<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>Contact information</h3>
-					<p class="lead">PVG, Satara road , Pune-29</p>
-					<p class="lead"><a href="#">9823080277</a></p>
-					<p><a href="#"> saldanhaaldrich02@gmail.com</a></p>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>Subscribe</h3>
-					<div class="subscribe_form">
-						<form class="subscribe_form">
-							<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
-							<button type="submit" class="submit">SUBSCRIBE</button>
-							<div class="clearfix"></div>
-						</form>
-					</div>
-					<ul class="list-inline f-social">
-						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-      
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: rgba(0,0, 0, 0.4);    
+}
 
 
 
-  	<!--Javascript and Jquery -->
-  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-     <!-- ALL JS FILES -->
-     <script src="js/all.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <!-- ALL PLUGINS -->
-  <!--<script src="js/custom.js"></script>-->   
-  <script type="text/javascript" src="app.js"></script>
+#mainNavbar .nav-link {
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
+#mainNavbar .nav-link:hover {
+    color:#E64A19;
+}
 
-    <script type="text/javascript">
-      $(window).on('scroll', function(){
-          if ($(window).scrollTop()) {
-              $('nav').addClass('black');
-          }
-          else{
-              $('nav').removeClass('black');
-          }
-      })
-  </script>
+#mainNavbar .navbar-brand {
+    color: #E64A19;
+    font-size: 1.8rem;
+    margin-left: 20px;
+    margin-right: 40px;
+}
 
-  <script type="text/javascript">
-      $(window).on('scroll', function(){
-          if ($(window).scrollTop()) {
-              $('a').addClass('black');
-          }
-          else{
-              $('a').removeClass('black');
-          }
-      })
-  </script>
+#mainNavbar.black {
+	background-color: #3E2723;
+	color: white;
+    transition: background 500ms;
+    font-weight: 300;
+}
 
-  </body>
+#intro{
+    background: url("1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
 
-</html>
+#intro h1{
+    font-size: 3rem;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+#intro p{
+    font-size: 1.7rem;
+    font-family: 'Cinzel', serif;
+}
+
+#content{
+    margin-left: 300px;
+    padding-top: 150px;
+}
+
+#about{
+    background-color: #EAECEE;
+}
+#content1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about h1{
+    color: #E64A19;
+    font-size: 3rem;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+#about p{
+    color: black;
+    line-height: 2;
+    font-size: 1.3rem;
+}
+
+#about .col{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.gallery-box{
+	padding: 70px 0px;
+}
+.tz-gallery{
+	margin-top: 30px;
+}
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.footer-area{
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+.bg-f{
+	background-image: url("footer-bg.jpg");
+	background-attachment: scroll;
+	background-clip: initial;
+	background-color: rgba(0, 0, 0, 0);
+	background-origin: initial;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.bg-f::before {
+    background: #010101;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+	opacity: 0.8;
+}
+
+.footer-area .container{
+	position: relative;
+	z-index: 1;
+}
+.footer-area h3{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 24px;
+	border-bottom: 1px dashed rgba(207, 166, 113, 0.5);
+	margin-bottom: 10px;
+}
+.footer-area p{
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.8);
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+.footer-area p.lead{
+	font-size: 19px;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.footer-area p.lead a{
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.footer-area p.lead a:hover{
+	color: #d0a772;
+}
+.footer-area p a{
+	font-size: 18px;
+	color: #ffffff;
+}
+.footer-area p a:hover{
+	color: #d0a772;
+}
+
+.subscribe_form {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.subscribe_form .form_input {
+    display: block;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    border: none;
+    font-size: 19px;
+    line-height: 50px;
+    padding: 0 10px;
+    float: left;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.subscribe_form .submit {
+    background-color: #d0a772;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 10px;
+    float: left;
+    width: 100%;
+	border: none;
+	cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.subscribe_form .submit:hover{
+	background: #010101;
+}
+
+.f-social {
+    padding-bottom: 10px;
+    margin: 0px;
+    margin-top: 20px;
+}
+.f-social li a {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.9);
+	margin-right: 10px;
+}
+
+.copyright{
+	margin-top: 20px;
+	position: relative;
+	display: block;
+	background-color: #010101;
+	border-top: 1px dashed rgba(207, 166, 113);
+	padding: 30px 0;
+	z-index: 1;
+}
+
+.copyright .company-name{
+	font-size: 16px;
+	text-align: center;
+}
+.copyright .company-name a{
+	font-size: 16px;
+}
