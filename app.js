@@ -54,3 +54,4 @@ $('.slider-single').slick({
 
     $('.slider-single').slick('slickGoTo', goToSingleSlide);
  });
+
